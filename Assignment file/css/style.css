@@ -1,0 +1,289 @@
+
+h1, h2, h3, h4, h5, h6, p, span, a, strong{
+	font-family: Hind Siliguri,sans-serif;
+	color: #111;
+}
+a{
+	text-decoration: none;
+}
+
+/* Premade container width start */
+	.w-1130{
+		width: 1130px;
+	}
+
+/* Premade container width end */
+
+
+/*  Element Background-Colors Start */
+
+.bg-light {
+	background-color: rgb(234 236 240) !important;
+}
+.bg-light:hover {
+	background-color: rgb(216, 226, 228) !important;
+}
+.bg-blue-dark{
+	background-color:#101828;
+	color:#fff!important;
+}
+.bg-yellow{
+	background-color: #ffcd33;
+}
+/*  Element Colors End */
+
+
+/* Button Style Start */
+
+.btn-sm {
+	padding: 3px 15px 0px 14px;
+	border-radius: 6px;
+}
+.btn-mid{
+	border-radius:6px;
+	padding:6px 40px 6px 40px ;
+}
+.lg-btn {
+	border-radius: 6px;
+	padding: 8px 60px 8px 60px;
+}
+/* Button Style end */
+
+/* Navbar Css Start */
+.nav-font{
+	font-size: 12.5px;
+	font-weight: 600;
+	color: #111;
+}
+.nav-font img {
+	width: 20px;
+	height: auto;
+}
+header .navbar{
+    background:#fff!important;
+}
+.course-search {
+	border: 1px solid #bbb6b659;
+	padding: 5px 43px 4px 9px;
+	margin-right:15px;
+	border-radius: 31px;
+	background: #f3f5f69c;
+	transition: 800ms;
+}
+.course-search:hover{
+	background-color: rgba(194, 209, 219, 0.55);
+} 
+.course-search a img {
+	padding-right: 10px;
+}
+.course-search a span {
+	font-size: 12.5px;
+	font-weight: 600;
+	color: #928e8e;
+}
+.navbar-menu ul li{
+	transition-duration: .3s;
+}
+.navbar-menu ul li:hover{
+	background-color: rgb(234 236 240);
+	border-radius: 10px;
+}
+.navbar-menu ul li .special-offer {
+	border: 1px solid #111;
+	border-radius: 10px;
+}
+.navbar-menu ul li .special-offer img {
+	padding-right: 5px;
+}
+.navbar-menu ul li a {
+	font-size: 12.5px;
+	font-weight: 600;
+	color: #111 !important;
+}
+.nav-right ul li a span {
+	font-size: 13px;
+	position: relative;
+	top: 2px;
+	padding-left: 6px;
+}
+.nav-right ul li:nth-child(1) a img {
+	width: 1rem !important;
+}
+.nav-link img {
+	max-width: 35px;
+	border-radius: 50%;
+}
+.profile-icon {
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 24px;
+	right: 7px;
+	font-size: 3px;
+}
+.profile-icon img {
+	max-width: 16px;
+}
+/* Navbar Css End */
+
+main{
+	background-color: #f9f9fa;
+}
+/*   Banner Section CSS Start   */
+.banner-section{}
+.banner-section .container {
+	width: 1130px;
+	border: 1px solid #919ca7;
+	border-radius: 1rem;
+	padding: 1.5rem;
+	margin-top: 18px;
+	background: #f5f5f5d4;
+}
+.live {
+	display: inherit;
+}
+.live h3 {
+	font-size: 33px;
+	font-weight: 700;
+	line-height: 53.8px;
+}
+.live a {
+	font-size: 33px;
+	font-weight: 700;
+	line-height: 46.8px;
+	padding: 0;
+	color: rgb(240, 68, 56);
+	margin-left: -39px;
+}
+.live a:hover{
+	color:rgb(240, 68, 56);
+}
+.icon-live {
+	display: inline-block;
+	position: relative;
+	top: calc(50% - 5px);
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
+	border: 2px solid rgba(255, 0, 0, 0.1);
+	border-radius: 50%;
+	z-index: 1;
+	&:before {
+	  content: "";
+	  display: block;
+	  position: absolute;
+	  background-color: rgb(255, 3, 3, 0.6);
+	  width: 100%;
+	  height: 100%;
+	  border-radius: 50%;
+	  animation: live 1s ease-in-out infinite;
+	  z-index: -1;
+	}
+  }
+  
+  @keyframes live {
+	0% {
+	  transform: scale(1, 1);
+	}
+	100% {
+	  transform: scale(3.5, 3.5);
+	  background-color: rgba(0, 0, 0, 0);
+	}
+  }
+  
+  .banner-section h4 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+	color: rgb(29, 41, 57);
+}
+.banner-section button {
+	margin-top: 18px;
+	margin-bottom: 34px;
+	border: none;
+}
+  .banner-section button a{}
+  .banner-section button a span{
+	font-size: 14px;
+  	font-weight: 500;
+  }
+  .banner-section h5{}
+  .company-img{}
+  .company-img img {
+	max-width: 95px;
+	padding: 0px 10px 0 0px;
+	filter: grayscale(1);
+	transition: .5s;
+}
+.company-img img:hover{
+	filter:none;
+}
+  
+  
+
+.banner-img{}
+.banner-img img {
+	border-radius: 20px;
+	width: 100%;
+	height: 300px !important;
+	overflow: hidden;
+}
+/*   Banner Section CSS end   */
+
+
+/*   TabCard Section CSS Start   */
+.tabcard-section ul li button.active{
+	background-color:#101828!important;
+	color:#fff!important;
+}
+/*   TabCard Section CSS end   */
+
+/*  Tables Batches CSS Stat  */
+.batches-table {
+	margin-bottom: 130px;
+}
+.batches-table tr{}
+.batches-table tr td {
+	font-size: 16px;
+	padding-top: 17px;
+	font-weight: 500;
+}
+.table-button {
+	text-align: center;
+}
+.table-button a h6{
+	color:#fff!important;
+}
+
+/*  Tables Batches CSS end  */
+
+/* Form section Css Start */
+.form-section{}
+.form-text{ 
+	font-family: 'Open Sans', sans-serif;
+}
+.form-text input {
+	border: none;
+	margin-bottom: 48px;
+	box-shadow: none;
+	font-size: 16px;
+	border-radius: 0;
+	padding: 14px;
+	background: #d9d6d68f;
+}
+.form-btn {
+	background: #ef0000;
+	color: #fff;
+	padding: 8px 242px;
+	border-radius: 28px;
+	font-size: 16px;
+	font-weight: 600;
+	transition:.2s;
+}
+.form-btn:hover{
+	background: #111;
+    color:#fff;
+    border:1px solid #111;
+}
+/* Form section Css end */
